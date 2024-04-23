@@ -2,3 +2,6 @@
 
 
 2. The url of: “amqp://guest:guest@localhost:5672” is the same as in the subscriber program, what does it mean? Baik program subscriber maupun publisher, keduanya terhubung pada satu server AMQP. “amqp://guest:guest@localhost:5672” akan digunakan untuk membuat new publisher queue. Server tersebut memiliki username "guest" dan password "guest". Hostname dari mesin tempat broker berjalan adalah localhost. Broker AMQP akan keep track connections pada port number 5672.
+
+Running RabbitMQ as message broker screenshot:
+![alt text](<images/Running RabbitMQ as message broker.png>)
