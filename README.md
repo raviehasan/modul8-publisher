@@ -6,13 +6,6 @@
 Running RabbitMQ as message broker screenshots:
 ![alt text](<images/image-0.png>)
 
-Sending and processing event
-![alt text](images/image-1.png)
-![alt text](images/image-2.png)
-![alt text](images/image-3.png)
-![alt text](images/image-4.png)
-![alt text](images/image-5.png)
-
 Monitoring chart based on publisher screenshot
 ![alt text](images/image-6.png)
 Berdasarkan screenshot di atas, dapat dilihat bahwa terdapat spike. Pada kasus ini, spike sendiri menandakan bahwa program publisher dijalankan. Spiking tersebut terjadi karena pengiriman request "cargo run" berkali-kali pada directory publisher. cargo run sendiri digunakan untuk menjalankan program. Maka dari itu, implikasinya adalah terjadi spiking pada message rates.
